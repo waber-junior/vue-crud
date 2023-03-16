@@ -1,10 +1,10 @@
-const baseApiUrl = "http://127.0.0.1:8080";
+const baseApiUrl = "http://127.0.0.1:8000/api";
 
 export const ENDPOINTS_GROUP = {
     data(){
         return {
             ENDPOINTS: {
-                students: baseApiUrl + "/students"
+                users: baseApiUrl + "/users"
             }
         };
     }
